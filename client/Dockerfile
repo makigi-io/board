@@ -12,7 +12,7 @@ FROM node:${NODE_VERSION}-alpine AS api_platform_client_development
 
 WORKDIR /usr/src/client
 
-RUN yarn global add @api-platform/client-generator
+RUN yarn global add @api-platform/client-generator @vue/cli @vue/cli-service-global
 
 # prevent the reinstallation of node modules at every changes in the source code
 COPY package.json yarn.lock ./

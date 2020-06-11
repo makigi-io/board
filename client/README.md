@@ -1,7 +1,24 @@
-# Client
+# client
 
-The Progressive Web App will be here.
+## Project setup
+```
+yarn install
+```
 
-Refer to the [API Platform Client Generator documentation](https://api-platform.com/docs/client-generator) and to the [Create
-React App guide](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md)
-for more information.
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
+
+### Compiles and minifies for production
+```
+yarn build
+```
+
+### Lints and fixes files
+```
+yarn lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
